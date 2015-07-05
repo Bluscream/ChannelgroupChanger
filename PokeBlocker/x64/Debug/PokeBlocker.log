@@ -1,0 +1,18 @@
+﻿Build started 17.06.2015 21:58:20.
+     1>Project "D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\PokeBlocker\PokeBlocker.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D POKEBLOCKER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\plugin.cpp
+         plugin.cpp
+     1>..\plugin.cpp(370): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+     1>..\plugin.cpp(378): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+     1>..\plugin.cpp(386): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.lib" /MACHINE:X64 /DLL x64\Debug\plugin.obj
+         LINK : D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.dll not found or not built by the last incremental link; performing full link
+            Creating library D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.lib and object D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.exp
+         PokeBlocker.vcxproj -> D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Debug\ChannelgroupChanger.dll
+     1>Done Building Project "D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\PokeBlocker\PokeBlocker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.24

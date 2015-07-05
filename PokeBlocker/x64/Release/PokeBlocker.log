@@ -1,0 +1,22 @@
+﻿Build started 01.07.2015 09:35:27.
+     1>Project "D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\PokeBlocker\PokeBlocker.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (NameFaker.vcxproj, PokeBlocker.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D POKEBLOCKER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt ..\plugin.cpp
+         plugin.cpp
+     1>..\plugin.cpp(402): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+     1>..\plugin.cpp(411): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+     1>..\plugin.cpp(420): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+     1>..\plugin.cpp(429): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+     1>..\plugin.cpp(438): warning C4244: 'argument' : conversion from 'uint64' to 'anyID', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Release\ChannelgroupChanger.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Release\ChannelgroupChanger.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Release\ChannelgroupChanger.lib" /MACHINE:X64 /DLL x64\Release\plugin.obj
+            Creating library D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Release\ChannelgroupChanger.lib and object D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Release\ChannelgroupChanger.exp
+         Generating code
+         Finished generating code
+         PokeBlocker.vcxproj -> D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\x64\Release\ChannelgroupChanger.dll
+     1>Done Building Project "D:\Coding\Projekte\TS3\Plugins\ChannelgroupChanger\PokeBlocker\PokeBlocker.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.60
